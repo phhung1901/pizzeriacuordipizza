@@ -1,0 +1,342 @@
+/*Theme colors*/
+/*  dai tablet in landscape ai desktop */
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+  .navbar-inverse .navbar-nav > li > a {
+    /*color: #999999;
+    font-weight: bold;*/
+    font-size: 12px;
+  }
+  .nav > li > a {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .affix {
+    top: 60px;
+    width: 210px;
+  }
+  #menu-nav.affix {
+    top: 10px;
+    width: 940px;
+  }
+  .page-text {
+    min-height: 430px;
+  }
+  .page-form {
+    min-height: 430px;
+  }
+  .crop-height {
+    max-height: 185px;
+    overflow: hidden;
+  }
+  .gallery-container div.item img.video {
+    max-height: 123px;
+  }
+  .gallery-container div.item span.title {
+    width: 87%;
+  }
+  .box-imgplustext {
+    height: 340px;
+    overflow: hidden;
+  }
+  .box-imgplustext div.img-container {
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  .box-imgplustext div.img-container img {
+    overflow: hidden;
+    max-height: 340px;
+    float: left;
+  }
+}
+/* dai tablet in portrait fino al landscape e mini desktop */
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    margin-top: 50px;
+  }
+  .navbar-toggle {
+    background-color: #999999;
+    border: 0;
+  }
+  .affix {
+    position: static;
+    width: auto;
+    top: 0;
+    margin-bottom: 20px;
+  }
+  .jumbotron {
+    margin-right: 6px;
+    margin-top: 70px;
+  }
+  .crop-height {
+    max-height: 200px;
+    overflow: hidden;
+  }
+  .page-form {
+    margin-bottom: 20px;
+  }
+  .box-imgplustext {
+    height: 280px;
+    overflow: hidden;
+  }
+  .box-imgplustext div.img-container {
+    width: 280px;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  .box-imgplustext div.img-container img {
+    overflow: hidden;
+    max-height: 280px;
+    float: left;
+  }
+  .carousel-caption {
+    z-index: 10;
+  }
+  .carousel-caption h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    line-height: 40px;
+    top: 100px;
+    z-index: 10;
+    padding: 0px;
+    letter-spacing: -1px;
+  }
+  .carousel-caption h2 span {
+    font-size: 24px;
+    font-style: normal;
+    background: rgba(52, 152, 219, 0.7);
+    padding: 5px 20px;
+    text-transform: uppercase;
+  }
+  .carousel-caption h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    line-height: 22px;
+    top: 100px;
+    z-index: 10;
+    padding: 0;
+    letter-spacing: -1px;
+  }
+  .carousel-caption h3 span {
+    font-size: 18px;
+    font-style: normal;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 20px;
+    text-transform: uppercase;
+  }
+  .gallery-container div.item img.video {
+    max-height: 202px;
+  }
+  .gallery-container div.item span.title {
+    width: 91%;
+  }
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+}
+/* Landscape phone to portrait tablet */
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  body {
+    margin-top: 50px;
+  }
+  .navbar-toggle {
+      background-color: #999999;
+      border: 0;
+  }
+  .topbar {
+    margin-bottom: 10px;
+  }
+  .header {
+    margin: 10px 0;
+  }
+  .header img.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .social-container {
+    margin-bottom: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .social-container .social-icons {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .box-imgplustext {
+    height: 350px;
+    overflow: hidden;
+  }
+  .box-imgplustext div.img-container {
+    width: 150px;
+    height: 350px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  .box-imgplustext div.img-container img {
+    overflow: hidden;
+    max-height: 350px;
+    float: left;
+  }
+  .affix {
+    position: static;
+    width: auto;
+    top: 0;
+    margin-bottom: 20px;
+  }
+  .jumbotron {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .jumbotron img {
+    max-width: 300px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .crop-height {
+    max-height: 230px;
+    overflow: hidden;
+  }
+  h2.page-text-heading {
+    font-size: 32px;
+  }
+  h2.page-text-heading span.text-muted {
+    font-size: 24px;
+  }
+  .page-form {
+    margin-bottom: 20px;
+  }
+  .main-txt div.wrap-txt-img {
+    max-width: 100%;
+    margin: 10px 20px 10px 0px;
+    float: left;
+  }
+  .gallery-container div.item img.video {
+    max-height: 380px;
+  }
+  .gallery-container div.item span.title {
+    width: 93%;
+  }
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+}
+/* phones and down */
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 480px) and (orientation: portrait) {
+  .navbar-toggle {
+    background-color: #999999;
+    border: 0;
+  }
+  .box-imgplustext {
+    overflow: hidden;
+    height: 100%;
+  }
+  .box-imgplustext div.img-container {
+    width: 100px;
+    max-height: 150px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+  }
+  .box-imgplustext div.img-container img {
+    overflow: hidden;
+    float: left;
+    max-height: 150px;
+  }
+  .jumbotron {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .jumbotron img {
+    max-width: 200px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  h2.page-text-heading {
+    font-size: 22px;
+  }
+  h2.page-text-heading span.text-muted {
+    font-size: 16px;
+  }
+  .search input {
+    border: none;
+    background: none repeat scroll 0% 0% transparent;
+    font-size: 11px;
+    width: 100px;
+    color: #999999;
+  }
+  .gallery-container div.item span.title {
+    width: 89%;
+  }
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }    
+img.img-catalogue {
+    float: none;
+  }
+  .panel-title h4 {
+    padding: 10px;
+  }
+  .panel-body p {
+    padding-left: 0px;
+  }
+  ul.breadcrumb {
+    display: none;
+  }
+}
+
+
+
+
+/*
+     FILE ARCHIVED ON 12:14:11 Aug 26, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:36:57 Dec 26, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.541
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.015
+  esindex: 0.01
+  cdx.remote: 52.79
+  LoadShardBlock: 110.551 (3)
+  PetaboxLoader3.datanode: 99.624 (4)
+  PetaboxLoader3.resolve: 188.075 (2)
+  load_resource: 209.095
+*/
